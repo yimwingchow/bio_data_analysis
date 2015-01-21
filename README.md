@@ -1,2 +1,3 @@
-# bio_data_analysis
-Repository for storing course notes of KTH course BB2490
+# Data Analysis for High-Throughput Biology Experiments
+
+Repository for storing course notes and material of KTH course BB2490
