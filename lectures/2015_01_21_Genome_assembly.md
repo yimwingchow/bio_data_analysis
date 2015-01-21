@@ -32,4 +32,26 @@ On the Greedy assembly, one of the mistakes is because large overlaps occur _by 
 
 Layout stage --> Graphs problem! Try to find Hamiltonian path. 
 
-## Paired end sequencing
+Slide 14 --> Pair-ends, mate-pairs... 
+
+Slide 17 --> De Bruijin Graph, representation of the target Genome. Each vertice
+represents a substring of the targe Genone. [wiki description](Read http://en.wikipedia.org/wiki/De_Bruijn_graph).
+The first Brujin Graph (when we do not know the target Genome) is generated from sequence
+fragments (check the slide). From that, you can infere the target genome. 
+
+_Genomve Coverage_ - How many times is a position sequenced, **on average**? (Number or reads * their lengths)/size of the Genome.
+Lander Waterman model for determining how good coverage we do need. Given C=1, what is P(X>0) = 1 - Pr(X=0) = ... approx 63% (known constant!).
+Problem: It assumes uniform distribution.
+
+Quality --> N50, slide 23. Has several issues, depending on the contig size. Bad
+assemblies could have high N50s. 
+.
+Problem: It assumes uniform distribution.
+
+_Quality_
+
+N50, slide 23. Has several issues, depending on the contig size. Bad
+assemblies could have high N50s. Paper about N50, From the "Assemblathon 2"... Brandam et al.
+
+
+Student presentations for next lecture (check out slides for the papers). Papers in KTH social.
