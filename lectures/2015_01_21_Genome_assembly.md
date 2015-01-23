@@ -2,7 +2,7 @@
 
 __By Lars Arvestad__
 
-Genom assembly has been a lot about engineering in the last years. It is basically
+Genome assembly has been a lot about engineering in the last years. It is basically
 impossible to cover all things in this course. We will be given an overview of it in this course.
 
 Assembly of genes are not the topic of this course. From easier to more complicated: Bacterial
