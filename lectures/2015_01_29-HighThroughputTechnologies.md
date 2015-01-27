@@ -28,9 +28,11 @@ how much data is generated? What kind of errors and how many are typically made?
 you should conclude your presentation by mentioning a scientific article based on data from 
 the presented technology.
 
-## Technology descriptions
+## Sequencing technologies descriptions
 
 ### Sanger sequencing
+
+http://www.wellcome.ac.uk/Education-resources/Education-and-learning/Resources/Animation/WTDV026689.htm
 
 Sanger sequencing was the first method for sequencing DNA with its first inception in 1977.
 it was the most widely used sequencing method for approximately 25 years. More recently, 
@@ -65,10 +67,41 @@ quality of sequencing traces after 700-900 bases.
 Also, in cases where DNA fragments are cloned before sequencing, the resulting sequence 
 may contain parts of the cloning vector.
 
-Average read length=500-600 bases: 6X coverage
+Average read length=500-800 bases: 6X coverage
+This sequencing method takes over a year to sequence one gigabase...
 
 **Citations**
 
 Where they describe the method: _Sanger, Frederick, Steven Nicklen, and Alan R. Coulson. "DNA sequencing with chain-terminating inhibitors." Proceedings of the National Academy of Sciences 74.12 (1977): 5463-5467._
 
 Characterization of Neanderthal genomics data: _Noonan, James P., et al. "Sequencing and analysis of Neanderthal genomic DNA." science 314.5802 (2006): 1113-1118._
+
+### Illumina sequencing
+
+http://www.wellcome.ac.uk/Education-resources/Education-and-learning/Resources/Animation/WTX056051.htm
+
+Also called High-Throughput or massively parallel sequencing, the Illumina method
+works as follows:
+
+1. Target DNA is broken into small fragments to which special adaptors (known small 
+DNA sequences) are added in both ends.
+2. These fragments are bound to a slide with primers attached, where the fragments can bind. 
+3. Amplification: DNA fragments bend over and find a complementary primer on the 
+surface. 
+4. From the primer in the surface, a complementary DNA strand is created. The strands
+are split apart, and the replication process is repeated to create more copies. This forms
+dense clusters of DNA in each channel of the slide. 
+5. One type of the strand is discarded to make sequencing more efficient. 
+6. Sequencing primers polymerase and nucleotides are the added to the mix. As bases
+are added, a laser is used to read them and determine the sequence of the fragment. The
+computer works out the sequence from many clusters. 
+
+Main problems are short read length (120 - 250 bp), which makes it unsuitable for
+unknown organisms (de-novo sequencing). However it is faster and cheaper. 
+
+The new X-Ten machines can produce approximately 1.9TB in 3 days, and the HiSeq 2500
+around 1TB in 6 days with the latest chemistry.
+
+**Citations**
+
+Nystedt, Björn, et al. "The Norway spruce genome sequence and conifer genome evolution." Nature 497.7451 (2013): 579-584.
