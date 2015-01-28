@@ -30,7 +30,9 @@ the presented technology.
 
 ## Sequencing technologies descriptions
 
-### Sanger sequencing
+### DNA sequencing
+
+#### Sanger sequencing
 
 http://www.wellcome.ac.uk/Education-resources/Education-and-learning/Resources/Animation/WTDV026689.htm
 
@@ -76,7 +78,7 @@ Where they describe the method: _Sanger, Frederick, Steven Nicklen, and Alan R. 
 
 Characterization of Neanderthal genomics data: _Noonan, James P., et al. "Sequencing and analysis of Neanderthal genomic DNA." science 314.5802 (2006): 1113-1118._
 
-### Illumina sequencing
+#### Illumina sequencing
 
 http://www.wellcome.ac.uk/Education-resources/Education-and-learning/Resources/Animation/WTX056051.htm
 
@@ -132,3 +134,42 @@ that the fluorescent signal is no longer detected.
 "PacBio RS II" uses all 150,000 ZMW holes concurrently, doubling the throughput 
 per experiment, achieving a throughput of 350 megabases per SMRT Cell though a Human,
 de novo data set (not sure about the time...)
+
+
+
+### Transcriptomics
+
+#### Affymetrix microarrays
+
+[About microarrays in general](https://www.youtube.com/watch?v=pWk_zBpKt_w)
+
+A DNA microarray is basically a grid of features (single-stranded already known genes)
+that allows for the detection of thousands of genes simultaneously given a sample.
+
+Basically when putting the sample in the array, DNA molecules try to hybridize with the
+complementary single stranded genes in the microarray. For each hybiridization, a 
+fluorescent color is shown in the corresponding grid in the microarray. 
+
+They are very cheap, and an inconvenient is that you rely on already sequenced information.
+
+Affymetrix is focused on oligonucleotide microarrays. These microarrays are used 
+to determine which genes exist in a sample by detecting specific pieces of mRNA. 
+A single chip can be used to analyze thousands of genes in one assay. Chips can be used only once.
+
+### RNA-seq
+
+The transcriptome of a cell is dynamic; it continually changes. The recent developments
+of next-generation sequencing (NGS) allow for increased base coverage of a DNA sequence, 
+as well as higher sample throughput. This facilitates sequencing of the RNA transcripts 
+in a cell, providing the ability to look at alternative gene spliced transcripts, 
+post-transcriptional modifications, gene fusion, mutations/SNPs and changes in gene expression.
+
+RNA sequencing is similar to illumina or next-gen sequencing, but instead of sequencing static genomes
+what is sequenced are the cell transcripts. RNA-seq is used to measure gene expression for example,
+one big difference with the microarray technology is that thanks to the deep sequencing
+it allows for a more detailed information. Also, as it does not rely in previous 
+information, it allows for the discovery of novel transcripts. 
+
+**citations**
+RNA-Seq: a revolutionary tool for transcriptomics.
+Wang Z1, Gerstein M, Snyder M.
