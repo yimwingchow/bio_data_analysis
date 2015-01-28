@@ -47,3 +47,34 @@ FDR from explicit null models
 
 Posterior error probability or local FDR: probability that an identification scoring
 t is incorrect. When we are interested in assessing the quality of a particular read-out
+
+
+# 2015-01-28 Questions about the paper by students
+
+This part of the course is usually considered the most cumbersome part of the course. 
+
+__On one slide ... , there is a ^ over FDR and pi. What does the ^ mean?__
+
+It is the statisticians way of expressing an estimate
+
+_NOTE_: It is way easier to assume that H0 is true, as your treat all the features in the same 
+way, all have the same frequency.
+
+__What does it mean to say a feature is generated under null/alternative hypothesis? Is it the same as saying an observed outcome is more likely under null/alternative hypothesis?__
+The feature is generated under the assumption that H0 is true, and __it is not__ the same
+than saying an observed outcome is more likely under null/alternative hypothesis.
+
+__How usual/unusual is it to be able to create an ... null model for the test you run? What aspect of the test would make it possible to do?__
+For quantification is quite straightforward: You basically want to assume that there
+is no difference betweem populations. 
+
+__How can we ensure that we will get a well calibrated high throughput experiment?__
+We basically can't...
+
+__How do we choose between Anova and t test when we have only two population?__
+ANOVA lets you work with more than 2 populations, and it is more flexible, but they're
+basically the same. 
+
+__It wasn't very clear to me the difference between Bonferroni correction and FDR, is it the strictness of Boferroni corrections only?__
+Basically yes, and it is way faster and easier to calculate, so you may want it if you
+need speed.	

@@ -30,7 +30,9 @@ the presented technology.
 
 ## Sequencing technologies descriptions
 
-### Sanger sequencing
+### DNA sequencing
+
+#### Sanger sequencing
 
 http://www.wellcome.ac.uk/Education-resources/Education-and-learning/Resources/Animation/WTDV026689.htm
 
@@ -76,7 +78,7 @@ Where they describe the method: _Sanger, Frederick, Steven Nicklen, and Alan R. 
 
 Characterization of Neanderthal genomics data: _Noonan, James P., et al. "Sequencing and analysis of Neanderthal genomic DNA." science 314.5802 (2006): 1113-1118._
 
-### Illumina sequencing
+#### Illumina sequencing
 
 http://www.wellcome.ac.uk/Education-resources/Education-and-learning/Resources/Animation/WTX056051.htm
 
@@ -106,7 +108,7 @@ around 1TB in 6 days with the latest chemistry.
 
 _Nystedt, Björn, et al. "The Norway spruce genome sequence and conifer genome evolution." Nature 497.7451 (2013): 579-584._
 
-### PacBio RS II
+#### PacBio RS II
 Single molecule real time sequencing (also known as SMRT) is a parallelized single molecule DNA sequencing by synthesis technology developed by Pacific Biosciences. Single molecule real time sequencing utilizes the zero-mode waveguide (ZMW), developed in the laboratories of Harold G. Craighead and Watt W. Webb[1] at Cornell University. A single DNA polymerase enzyme is affixed at the bottom of a ZMW with a single molecule of DNA as a template. The ZMW is a structure that creates an illuminated observation volume that is small enough to observe only a single nucleotide of DNA (also known as a base) being incorporated by DNA polymerase. Each of the four DNA bases is attached to one of four different fluorescent dyes. When a nucleotide is incorporated by the DNA polymerase, the fluorescent tag is cleaved off and diffuses out of the observation area of the ZMW where its fluorescence is no longer observable. A detector detects the fluorescent signal of the nucleotide incorporation, and the base call is made according to the corresponding fluorescence of the dye. Sequence data generated from single molecule real time sequencing was first published in January 2009 in the journal Science.[2]
 
 Read lengths from the single molecule real time sequencing are comparable to or 
@@ -119,3 +121,7 @@ With the last chemistry, read lengths of about 5kpb... awesome!
 To identify missing sequence and genetic variation, they sequence and analyse a 
 haploid human genome (CHM1) using single-molecule, real-time DNA sequencing: 
 _Chaisson, Mark JP, et al. "Resolving the complexity of the human genome using single-molecule sequencing." Nature (2014)._
+
+### Transcriptomics
+
+#### Affymetrix microarrays
