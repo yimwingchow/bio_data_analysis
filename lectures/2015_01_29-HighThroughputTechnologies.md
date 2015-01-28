@@ -105,3 +105,30 @@ around 1TB in 6 days with the latest chemistry.
 **Citations**
 
 Nystedt, Björn, et al. "The Norway spruce genome sequence and conifer genome evolution." Nature 497.7451 (2013): 579-584.
+
+### PacBio RS II from Pacific Biosciencies
+
+http://files.pacb.com/pdf/PacBio_RS_II_Brochure.pdf
+
+PacBio RS II is one of the sequencers from Pacific Biosciences that uses the SMRT
+technology for sequencing DNA. It works as follows:
+
+The DNA sequencing is done on a chip that contains many ZMWs. Inside each ZMW, a 
+single active DNA polymerase with a single molecule of single stranded DNA template 
+is immobilized to the bottom through which light can penetrate and create a visualization 
+chamber that allows monitoring of the activity of the DNA polymerase at a single molecule level. 
+The signal from a phospho-linked nucleotide incorporated by the DNA polymerase is 
+detected as the DNA synthesis proceeds which results in the DNA sequencing in real time.
+
+For each of the nucleotide bases, there are four corresponding fluorescent dye molecules 
+that enable the detector to identify the base being incorporated by the DNA polymerase 
+as it performs the DNA synthesis. The fluorescent dye molecule is attached to the phosphate 
+chain of the nucleotide. When the nucleotide is incorporated by the DNA polymerase, the 
+fluorescent dye is cleaved off with the phosphate chain as a part of a natural DNA 
+synthesis process during which a phosphodiester bond is created to elongate the DNA chain. 
+The cleaved fluorescent dye molecule then diffuses out of the detection volume so 
+that the fluorescent signal is no longer detected.
+
+"PacBio RS II" uses all 150,000 ZMW holes concurrently, doubling the throughput 
+per experiment, achieving a throughput of 350 megabases per SMRT Cell though a Human,
+de novo data set (not sure about the time...)
