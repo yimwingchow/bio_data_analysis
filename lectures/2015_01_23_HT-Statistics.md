@@ -78,3 +78,10 @@ basically the same.
 __It wasn't very clear to me the difference between Bonferroni correction and FDR, is it the strictness of Boferroni corrections only?__
 Basically yes, and it is way faster and easier to calculate, so you may want it if you
 need speed.	
+
+
+__NOTE:__: p-value is good to estimate a single statistic, but if you want to condense
+all the information of all the reads in your experiment, then you need FDR. Think about the
+example of the lottery. The probability of winning the lottery is about 1/1M if you buy a 
+single ticket, but if a guy buys half a million tickets, he/she has about 50% of
+winning the lottery (even if the individual probability is still 1/1M)
