@@ -156,7 +156,7 @@ Affymetrix is focused on oligonucleotide microarrays. These microarrays are used
 to determine which genes exist in a sample by detecting specific pieces of mRNA. 
 A single chip can be used to analyze thousands of genes in one assay. Chips can be used only once.
 
-### RNA-seq
+#### RNA-seq
 
 The transcriptome of a cell is dynamic; it continually changes. The recent developments
 of next-generation sequencing (NGS) allow for increased base coverage of a DNA sequence, 
@@ -173,3 +173,22 @@ information, it allows for the discovery of novel transcripts.
 **citations**
 RNA-Seq: a revolutionary tool for transcriptomics.
 Wang Z1, Gerstein M, Snyder M.
+
+
+### Proteomics
+
+#### Shotgun proteomics
+Shotgun proteomics refers to the use of bottom-up proteomics techniques in identifying
+proteins in complex mixtures using a combination of high performance liquid chromatography 
+combined with mass spectrometry. The name is derived from shotgun sequencing 
+of DNA which is itself named after the rapidly expanding, quasi-random firing pattern of a shotgun. 
+The most common method of shotgun proteomics starts with the proteins in the mixture being digested 
+and the resulting peptides are separated by liquid chromatography. Tandem mass spectrometry 
+is then used to identify the peptides.
+
+**citations**
+McDonald, W. Hayes, and John R. Yates. "Shotgun proteomics and biomarker discovery." Disease markers 18.2 (2002): 99-105.
+
+#### Selected reaction monitoring
+
+http://www.nature.com/nmeth/journal/v9/n6/full/nmeth.2015.html
