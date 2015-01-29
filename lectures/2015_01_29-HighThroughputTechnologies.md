@@ -156,6 +156,10 @@ Affymetrix is focused on oligonucleotide microarrays. These microarrays are used
 to determine which genes exist in a sample by detecting specific pieces of mRNA. 
 A single chip can be used to analyze thousands of genes in one assay. Chips can be used only once.
 
+
+Affymetrix microarrays probes have a fixed length of 25bases, whereas with other
+technologies the length can vary and be as long as you want. 
+
 #### RNA-seq
 
 The transcriptome of a cell is dynamic; it continually changes. The recent developments
