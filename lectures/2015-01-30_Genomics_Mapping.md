@@ -2,7 +2,22 @@
 
 ## Lecture notes
 
+Prepare for the quiz: Trapnell and Salzberg: How to map billions of short reads 
+onto genomes.
 
+If you're mapping paired reads and it turns out that they're too close in the mapping
+(say 50bp while insert size is 700bp), probably you're missing some information in the
+contig. Same the other way around, but you have too much information.
+
+If you're an albino, you're missing a piece of DNA in some gene...
+
+Structural variations between really small (1) to really big (1000s) of nucleotides
+are easy to detect, in between is harder. The harder seems to be indels on 10s of
+nucleotides. 
+
+SAM/BAM files have become the de-facto format for all aligners.
+
+Bowtie2 gives significantly better results for scaffolding than BWA.
 
 ## Paper notes
 
