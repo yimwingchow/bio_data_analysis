@@ -30,6 +30,18 @@ from marginal ones.
 
 - SNP are usually good indicators of collapse or miss-assembled regions. 
 
+_Presentation:_
+
+Evaluating assemblers with simulated data may bring to misleading results, as the 
+differences with real data are visible. 
+
+Coverage here is not the same than when sequencing!! It means the percentage of 
+genome sequenced!
+
+**Q:** If we evaluate _all_ assemblers with simulated data, shouldn't that be fair enough
+for the evaluation? Basically they have not fidelity to the biology. 
+
+
 ### Genome assembly reborn: Recent computational challenges
 
 They are going to assemble a small sequence on the blackboard!
