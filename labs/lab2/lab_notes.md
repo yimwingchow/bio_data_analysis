@@ -105,10 +105,10 @@ Command used to convert chr22 region to a bed file:
  bamToBed -i data/ERR001014.filt.bwa_aln.default.sorted.bam | awk '/^chr22_hg19/{if ($2>=1818000000 && $2<=18080000) print "chr22", substr($0, 11)}' > data/chr22_part.ERR001014.filt.bwa_aln.default.sorted.bed
  ```
 
- #### Q10. Are your reads mostly within exons or within introns of the refseq gene CECR2 in this region? (Hint: exons are thicker lines than introns).
+#### Q10. Are your reads mostly within exons or within introns of the refseq gene CECR2 in this region? (Hint: exons are thicker lines than introns).
 
- Most of the reads seem to be within exons.
+Most of the reads seem to be within exons.
 
- #### Q11. Take a screenshot of the UCSC Genome Browser window with your submitted track visible. Include the screenshot in your report.
+#### Q11. Take a screenshot of the UCSC Genome Browser window with your submitted track visible. Include the screenshot in your report.
 
- Link to picture here
+Link to picture here
