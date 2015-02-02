@@ -80,3 +80,35 @@ There are 16 reads with quality over 30 and 7 reads with quality equal to 0.
 [Info about tview](http://samtools.sourceforge.net/tview.shtml)
 
 ####Q8. Try tview for a few minutes. (Use ‘?’ to get help inside tview). What do you think about this alignment viewer?
+
+After playing for a while with the viewer you get quite comfortable with it. The controls
+are quite intuitive, and if you forget how to use it, you can always check the help '?'.
+
+Obviously a GUI (Graphical User Interface) instead of a CLI (Command Line Interface)
+would be more suitable for all kind of users, and easier to understand and see. The advantage
+of being a CLI is that is very light, allowing to browse easily large alignments. Also,
+it can be used over the network without any problem, as we are actually using it
+in this lab.
+
+####Q9. What are the 3 required fields (i.e., columns) of a .bed file?
+ 
+The three required fields for the .bed format are:
+
+1. **chrom** - The name of the chromosome (e.g. chr3, chrY, chr2_random) or scaffold (e.g. scaffold10671).
+2. **chromStart** - The starting position of the feature in the chromosome or scaffold. The first base in a chromosome is numbered 0.
+3. **chromEnd** - The ending position of the feature in the chromosome or scaffold. The chromEnd base is not included in the display of the feature. For example, the first 100 bases of a chromosome are defined as chromStart=0, chromEnd=100, and span the bases numbered 0-99.
+
+
+Command used to convert chr22 region to a bed file:
+
+```bash
+ bamToBed -i data/ERR001014.filt.bwa_aln.default.sorted.bam | awk '/^chr22_hg19/{if ($2>=1818000000 && $2<=18080000) print "chr22", substr($0, 11)}' > data/chr22_part.ERR001014.filt.bwa_aln.default.sorted.bed
+ ```
+
+ #### Q10. Are your reads mostly within exons or within introns of the refseq gene CECR2 in this region? (Hint: exons are thicker lines than introns).
+
+ Most of the reads seem to be within exons.
+
+ #### Q11. Take a screenshot of the UCSC Genome Browser window with your submitted track visible. Include the screenshot in your report.
+
+ Link to picture here
