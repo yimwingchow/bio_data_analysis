@@ -12,7 +12,7 @@
 
 # First add the modules needed for the program(s) your're about to run:
 # bioinfo-tools
-# bwa/0.5.9 
+# bwa/0.5.9
 # samtools
 # BEDTools
 # python
@@ -21,19 +21,17 @@
 # htseq
 
 # cd to the directory where the data is (of course, use your own user name):
-cd /home/YOUR_USER_NAME/Lab3
+cd /home/guilc/repos_and_codes/bio_data_analysis/labs/lab3
 
-# Then list the commands that you would like to run. 
-# If you'd like to add more jobs, enter them on the following lines. 
+# Then list the commands that you would like to run.
+# If you'd like to add more jobs, enter them on the following lines.
 
 ## PART A: RNA-SEQ
 # To help you out, the first command of the RNA-seq part is provided (don't forget to uncomment):
-# tophat -o tophat_output --solexa1.3-quals /proj/g2014007/INBOX/BB2490_Lab3/hg19 Lab3_rnaseq.healthTiss9F.fastq
+tophat -o data/tophat_output --solexa1.3-quals /proj/g2014007/INBOX/BB2490_Lab3/hg19 data/rnaseq.inflTiss9P.fastq
 
 
 ## PART B: ChIP-SEQ
 # NOTE: we use Galaxy for this part of the computer exercise. See lab instructions.
 # (In case MACS had been installed, the following line would have started the peak calling:)
 # macs -t Sp1_sample.bed --name NAME_OF_OUTPUT --pvalue=1e-6
-
-
