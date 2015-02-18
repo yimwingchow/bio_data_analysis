@@ -10,3 +10,5 @@
 - De-novo sequencing for totally new genomes, NGS platforms for re-sequencing (makes it much more easy having the reference genome)
 
 **Overlap computation**
+
+- Read overlap computation requires in the worst case, the square of the number of reads provided to the assembler, because each read has to be compared with all other reads. 
