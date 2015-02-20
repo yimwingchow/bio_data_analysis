@@ -16,3 +16,7 @@ the diary (personal).
 Asked in SciLifeLab if it is possible to use customer data for the project. The
 answer has been yes, _but_ we have to work around confidentiality issued, Yim and
 Sofia will probably have to sign some sort of NDA, to be decided...
+
+### 2015-02-20
+
+Intro. presentation done. 
