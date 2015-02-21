@@ -4,7 +4,10 @@
 
 ### 2015-02-20
 
-Intro. presentation done. 
+Intro. presentation done.
+
+Sent a mail to my group members summarising some more detailed information about the project, basically sent a couple of papers
+that we all should read and comment on Wednesday. 
 
 ### 2015-02-19
 
