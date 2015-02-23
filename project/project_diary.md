@@ -29,6 +29,13 @@ mRNA, etc) are left apart. Then adaptors are ligated to the selected miRNA, foll
 
 * Sequencing errors need to be treated as well. Given the fact that both the base error and the position of the error are expected to be random, the distribution of reads with errors is low. **This is why a common step is to eliminate reads with an rpm below certain threshold**. This threshold is usually selected arbitrarily (?).
 
+* **Identification of isoforms:** In order to detect miRNAs, the software miRDeep
+uses information about known patterns that the sequencing of these small RNA leave in the sequencing data.
+
+* Several notes on **prediction of miRNA targets**, not much algorithmic detail. Different programs use different metrics, so it is important to run experiment verifications.
+
+* Seems to be useful to compare miRMA expression with mRNA expression analysis, because as miRNA represses the expression of mRNA, an inverse correlation on their expression is expected. 
+
 ### 2015-02-20
 
 Intro. presentation done.
