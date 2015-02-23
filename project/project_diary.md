@@ -34,7 +34,15 @@ uses information about known patterns that the sequencing of these small RNA lea
 
 * Several notes on **prediction of miRNA targets**, not much algorithmic detail. Different programs use different metrics, so it is important to run experiment verifications.
 
-* Seems to be useful to compare miRMA expression with mRNA expression analysis, because as miRNA represses the expression of mRNA, an inverse correlation on their expression is expected. 
+* Seems to be useful to compare miRMA expression with mRNA expression analysis, because as miRNA represses the expression of mRNA, an inverse correlation on their expression is expected.
+
+* Tricky: one miRNA can inhibit the expression of several mRNAs, as well as a single mRNA can have several binding sites for one or several miRNAs.
+
+* **TarBase** is used to search for for predicted or experimentally confirmed miRNA.
+
+* Nice figure representing a common workflow for miRNA data analysis:
+
+![Workflow for miRNA data analysis](https://raw.githubusercontent.com/guillermo-carrasco/bio_data_analysis/master/project/doc/figures/miRNA_analysis_workflow.png)
 
 ### 2015-02-20
 
