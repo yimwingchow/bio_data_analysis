@@ -6,7 +6,8 @@
 
 ##### Notes from the paper "_Functional shifts in insect microRNA evolution_"
 
-
+* Again miRNA are short (~22 nucleotides) sequences that mediate RNA translation.
+* miRNA are absent in unicellular organisms 
 
 ### 2015-02-21
 
