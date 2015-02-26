@@ -1,13 +1,21 @@
 # Project diary
 
-### Guillermo Carrasco Hernández
+### 2015-02-26
+
+I have copied all raw project data to my home directory in Uppmax do be able to share it with Sofia and Yim, the data consists on:
+
+* 2 projects
+* 18 samples
+* 8 FASTQ files for the first project (paired end reads)
+* 56 FASTQ files for the second project (all samples ran in 2 lanes, paired end reads)
+* 19 GB total amount of data
 
 ### 2015-02-24
 
 ##### Notes from the paper "_Functional shifts in insect microRNA evolution_"
 
 * Again miRNA are short (~22 nucleotides) sequences that mediate RNA translation.
-* miRNA are absent in unicellular organisms 
+* miRNA are absent in unicellular organisms
 
 ### 2015-02-21
 
