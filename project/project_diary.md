@@ -2,13 +2,23 @@
 
 ### 2015-02-26
 
-I have copied all raw project data to my home directory in Uppmax do be able to share it with Sofia and Yim, the data consists on:
+I have copied all raw project data to my home directory in Uppmax to be able to share it with Sofia and Yim, the data consists on:
 
 * 2 projects
 * 18 samples
 * 8 FASTQ files for the first project (paired end reads)
 * 56 FASTQ files for the second project (all samples ran in 2 lanes, paired end reads)
 * 19 GB total amount of data
+
+As a small test, ran fastQC in one sample, got weird results. For example there seem to be an excellent read quality:
+
+![Read quality](https://raw.githubusercontent.com/guillermo-carrasco/bio_data_analysis/master/project/results/2015-02-26/1_140828_AHA36KADXX_P1185_402_1_fastqc/Images/per_base_quality.png)
+
+But the sequence length distribution doesn't correspont to the expected length of miRNA data:
+
+![Length distribution](https://raw.githubusercontent.com/guillermo-carrasco/bio_data_analysis/master/project/results/2015-02-26/1_140828_AHA36KADXX_P1185_402_1_fastqc/Images/sequence_length_distribution.png)
+
+However that may be adapter contamination, eventhough on this example run of FastQC it doesn't seem to detect a lot of adapter sequences. 
 
 ### 2015-02-24
 
