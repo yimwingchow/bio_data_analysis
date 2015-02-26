@@ -14,11 +14,21 @@ As a small test, ran fastQC in one sample, got weird results. For example there 
 
 ![Read quality](https://raw.githubusercontent.com/guillermo-carrasco/bio_data_analysis/master/project/results/2015-02-26/1_140828_AHA36KADXX_P1185_402_1_fastqc/Images/per_base_quality.png)
 
-But the sequence length distribution doesn't correspont to the expected length of miRNA data:
+But the sequence length distribution doesn't correspond to the expected length of miRNA data:
 
-![Length distribution](https://raw.githubusercontent.com/guillermo-carrasco/bio_data_analysis/master/project/results/2015-02-26/1_140828_AHA36KADXX_P1185_402_1_fastqc/Images/sequence_length_distribution.png)
+![Length distribution](https://raw.githubusercontent.com/guillermo-carrasco/bio_data_analysis/master/project/results/2015-02-26/1_140828_AHA36KADXX_P1185_402_1_fastqc_0.7/Images/sequence_length_distribution.png)
 
-However that may be adapter contamination, eventhough on this example run of FastQC it doesn't seem to detect a lot of adapter sequences. 
+However that may be adapter contamination, even though on this example run of FastQC it doesn't seem to detect a lot of adapter sequences. Will run `cutadapt` first.
+
+GC content seems pretty bad as well...
+
+![GC content](https://raw.githubusercontent.com/guillermo-carrasco/bio_data_analysis/master/project/results/2015-02-26/1_140828_AHA36KADXX_P1185_402_1_fastqc_0.7/Images/per_sequence_gc_content.png)
+
+**NOTE**: That I ran an old version (0.7) of FastQC, load the more recent one with `module load FastQC/0.10.1`
+
+**Meeting with Sofia and Yim**
+
+
 
 ### 2015-02-24
 
